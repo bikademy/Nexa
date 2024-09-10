@@ -1,3 +1,5 @@
+
+
 pragma nexscript ^0.1.0;
 
 contract SingleLocationCheckIn(pubkey cyclist, bytes32 locationCode, int deadline) {
