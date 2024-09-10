@@ -29,9 +29,3 @@ contract SingleLocationCheckIn(pubkey cyclist, bytes32 locationCode, int deadlin
     }
 }
 
-
-How it works:
-
-    Check-in: The Bikademy Student checks in at a specific location (e.g. the Eiffel Tower) using the locationCode.
-    Test Verification: The function isTestPassed returns true if the user has successfully checked in at the location.
-    NFT Minting: If the user has passed the test (checked in at the location), an NFT is created as proof.
