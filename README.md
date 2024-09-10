@@ -1,5 +1,5 @@
 # Nexa Smart Contract for Bikademy Overview
-This smart contract has been developed for the Bikademy mobile app, designed to mint NFTs from the Nexa market as rewards for cyclists who visit cultural or natural locations, known as Bikademy Exams. The contract ensures secure and transparent management of NFT rewards for participants, aligning with Bikademy’s mission to promote eco-friendly exploration by bike.
+This smart contract has been developed for the Bikademy mobile app, designed to mint NFTs from the Nexa market as rewards for users (Bikademy Students) who visit cultural or natural locations, known as Bikademy Exams. The contract ensures secure and transparent management of NFT rewards for participants, aligning with Bikademy’s mission to promote eco-friendly exploration by bike.
 
 # Purpose
 
