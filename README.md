@@ -3,7 +3,7 @@ This smart contract has been developed for the Bikademy mobile app, designed to 
 
 # Purpose
 
-The primary purpose of this smart contract is to incentivize Bikademy Students to explore destinations in a green, sustainable way by awarding them NFTs upon completing specific cycling routes or Exams. These NFTs come with additional utilities, such as free museum tickets or discount vouchers, offering both a fun and practical reward for cyclists.
+The primary purpose of this smart contract is to incentivize Bikademy Students to explore destinations in a green, sustainable way by awarding them NFTs upon completing specific cycling tasks or Exams. These NFTs come with additional utilities, such as free museum tickets or discount vouchers, offering both a fun and practical reward for cyclists.
 
 # Benefits of the Smart Contract
 
