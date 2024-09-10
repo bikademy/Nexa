@@ -1,4 +1,4 @@
-
+// This smart contract is developed for the Bikademy mobile app, which rewards Bikademy Students for visiting Bikademy Exams (cultural or natural locations) by bicycle as a task and check in through Bikademy App. 
 
 pragma nexscript ^0.1.0;
 
