@@ -1,6 +1,3 @@
-Description: This smart contract is developed for the Bikademy mobile app, which mints NFT from Nexa market as a reward for visiting Bikademy Exam (cultural or natural location) by bicycle. 
-The main purpose is to reward Bikademy Students (participants) for exploring destinations by bike, in a green way, with NFT that has utilities (e.g. free tickets to museums, vouchers...).
-
 pragma nexscript ^0.1.0;
 
 contract SingleLocationCheckIn(pubkey cyclist, bytes32 locationCode, int deadline) {
