@@ -5,6 +5,11 @@ This smart contract has been developed for the Bikademy mobile app, designed to 
 
 The primary purpose of this smart contract is to incentivize Bikademy Students to explore destinations in a green, sustainable way by awarding them NFTs upon completing specific cycling tasks or Exams. These NFTs come with additional utilities, such as free museum tickets or discount vouchers, offering both a fun and practical reward for cyclists.
 
+# How it works
+- Check-in: The cyclist checks in at a specific location (e.g. the Eiffel Tower) using the locationCode.
+- Test Verification: The function isTestPassed returns true if the cyclist has successfully checked in at the location.
+- NFT Minting: If the cyclist has passed the test (checked in at the location), an NFT is created as proof.
+
 # Benefits of the Smart Contract
 
 By using this smart contract, Bikademy Students can trust that their achievements will be rewarded automatically and fairly. The contract reduces the need for manual intervention and provides a secure and transparent way to manage reward distribution.
