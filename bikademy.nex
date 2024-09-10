@@ -1,0 +1,37 @@
+Description: This smart contract is developed for the Bikademy mobile app, which mints NFT from Nexa market as a reward for visiting Bikademy Exam (cultural or natural location) by bicycle. 
+The main purpose is to reward Bikademy Students (participants) for exploring destinations by bike, in a green way, with NFT that has utilities (e.g. free tickets to museums, vouchers...).
+
+pragma nexscript ^0.1.0;
+
+contract SingleLocationCheckIn(pubkey cyclist, bytes32 locationCode, int deadline) {
+    bool locationPassed = false;  // Track if the location was checked in
+
+    // Function to check in at the specific location
+    function checkIn(bytes32 checkInLocationCode, sig cyclistSig) public {
+        // Verify the cyclist's signature and the location code
+        require(checkSig(cyclistSig, cyclist));
+        require(checkInLocationCode == locationCode);  // Ensure it's the correct location
+        require(tx.time <= deadline);  // Check if it's within the deadline
+
+        locationPassed = true;  // Mark location as passed
+    }
+
+    // Function to verify if the test was passed (location checked in)
+    function isTestPassed() public view returns (bool) {
+        return locationPassed;  // Return true if the location was checked in
+    }
+
+    // Mint NFT if the cyclist passed the test (visited the location)
+    function mintNFT() public {
+        require(isTestPassed());  // Only mint if the location was checked in
+
+        // NFT minting logic (placeholder for real minting)
+    }
+}
+
+
+How it works:
+
+    Check-in: The Bikademy Student checks in at a specific location (e.g. the Eiffel Tower) using the locationCode.
+    Test Verification: The function isTestPassed returns true if the user has successfully checked in at the location.
+    NFT Minting: If the user has passed the test (checked in at the location), an NFT is created as proof.
